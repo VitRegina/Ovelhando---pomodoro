@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script>
+    <link rel="stylesheet" href="chamado_principalstyle.css">
+    <title>Chamadas</title>
+</head>
+<body>
+    <header>
+        <h1>TURMAS</h1>
+    </header>
+    <main>
+        <div id="app">
+            <div class="btns-global">
+                <a href=""> 
+                    <button name="btn1"  type="button"></button>
+                </a>
+                <a href=""> 
+                    <button name="btn2"  type="button"></button>
+                </a>
+                <a href="">
+                    <button name="btn3" type="button"></button> 
+                </a>
+            </div>
+            <button type="button">CHAMADAS ANTERIORES</button>
+        </div>
+    </main>
+</body>
+</html>
+
+<script>
+    const { createApp, ref } = Vue
+  
+    createApp({
+      setup() {
+        const message = ref('Hello vue!')
+        return {
+          message
+        }
+      }
+    }).mount('#app')
+  </script>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    position: relative;
+    background-image: url('./images/fundo.jpg');
+    color: white;
+}
+
+header{
+     background-color: #121214;
+     height: 5rem;
+     width: 100%;
+     text-align: center;
+     box-shadow: 1rem 0.2rem 1.5rem 1.5rem #F7F7FA;
+     border-bottom: 2px solid #8234E9 ;
+   
+}
+main{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(85, 84, 84);
+}
+#logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 1.5rem;
+    margin-left: 4.5rem;
+
+}
+#titulo{
+    color: #F7F7FA;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    padding: 0.1rem;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin: 10px 10px; 
+    padding: 10px; 
+    color: #B3B8C9; 
+    border-radius: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+li:hover {
+    background-color: #29292E; 
+    color: #B3B8C9; 
+    cursor: pointer; 
+}
+#separador{
+    width: 0.01rem;
+    height:3rem;
+    background-color: #B3B8C9;
+    display: flex;
+    align-items: center;
+    margin:10px 10px; 
+   
+}
+.entrada{
+    background-color: transparent;
+    color: #B3B8C9;
+    border: transparent;
+    display: inline-block;
+    margin: 10px 10px; 
+    padding: 10px; 
+    border-radius: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.entrada:hover{
+    background-color: #29292E; 
+    color: #B3B8C9; 
+    cursor: pointer; 
+}
+#svg_assinar{
+  vertical-align: middle;
+  line-height: 1;
+  margin-left: 0.5rem;
+}
+#svg_entrar{
+    margin-right: 0.5rem;
+    color: #D4BFAA;
+}
+#assinar{
+    border: solid 0.1rem #D4BFAA;
+    background-color: #D4BFAA;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#assinar:hover{
+    border: solid 0.1rem #D4BFAA;
+    background-color: transparent;
+    color: white;
+    font-weight:normal;
+}
+#titulo-site{
+    background-color: #29292E;
+    width: 10rem;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 2px black solid;
+}
+#titulo-site:hover{
+    color: #F7F7FA;
+}
+.corpo-site{
+    margin-left: 20rem;
+}
+#subtitulo{
+    font-size: xx-large;
+    color: rgb(red, green, blue);
+}

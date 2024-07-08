@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 5rem;
+    width:100%;
+    background-color: rgb(74, 74, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+body{
+    background-color: rgb(173, 166, 166);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#app{
+    margin: 5rem;
+    background-color: aliceblue;
+    width: 100rem;
+    height: 80em;   
+}
+.btns-global{
+    background-color: blue;
+    margin: 10px;
+    width: 20rem;
+    height:10rem;
+}
